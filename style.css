@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background: linear-gradient(135deg, #dfa54e, #a61cc8);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    /* border: 1px solid black; */
+    width: 420px;
+    background: #fff;
+    padding: 30px 25px;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+}
+
+.head {
+    text-align: center;
+    margin-bottom: 25px;
+    font-size: 26px;
+    font-weight: 600;
+    color: #4e73df;
+}
+
+.feilds {
+    /* border: 1px solid rgb(255, 0, 0); */
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+.feilds input {
+   
+    width: 100%;
+    padding: 12px 15px;
+    border-radius: 8px;
+    border:3px solid #d1d3e2;
+    outline: none;
+    font-size: 15px;
+}
+
+
+.feilds input:focus {
+    border-color: #002db4c6;
+}
+
+
+.buton {
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.buton button {
+    width: 48%;
+    padding: 12px 0;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    background: #4e73df;
+    color: #fff;
+    font-weight: 600;
+}
+
+
+.buton button:hover {
+    background: #3552b3;
+}
+
+.clear {
+    background: #e74a3b;
+}
+
+.clear:hover {
+    background: #c0392b;
+}
+.errorpara{
+    color: red;
+    font-size:14px;
+}
+.emailerror{
+    color: red;
+    font-size:14px;
+}
+.numerror{
+    color: red;
+    font-size:14px;
+}
+.passerror{
+    color: red;
+    font-size:14px;
+}
+.reerror{
+    color: red;
+    font-size:14px;
+}
+@media screen and (max-width:576px) {
+.container{
+    width: 90%;
+    
+}
+.head{
+    font-size: 20px;
+}
+.buton button{
+    font-size:13px;
+}
+    
+}
